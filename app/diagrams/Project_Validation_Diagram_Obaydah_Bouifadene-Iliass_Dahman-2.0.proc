@@ -3,7 +3,7 @@
   <process:MainProcess xmi:id="_kMK5QGwuEe6kvqzAwC8jmg" name="Project_Validation_Diagram_Obaydah_Bouifadene-Iliass_Dahman" version="2.0" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_kMK5QWwuEe6kvqzAwC8jmg" name="Project_Validation_Process_Obaydah_Bouifadene-Iliass_Dahman" version="2.0">
       <elements xmi:type="process:Lane" xmi:id="_kMK5QmwuEe6kvqzAwC8jmg" name="Employee lane" actor="_kMK5_mwuEe6kvqzAwC8jmg">
-        <elements xmi:type="process:StartEvent" xmi:id="_kMK5Q2wuEe6kvqzAwC8jmg" name="Start1" outgoing="_kMK51GwuEe6kvqzAwC8jmg">
+        <elements xmi:type="process:StartEvent" xmi:id="_kMK5Q2wuEe6kvqzAwC8jmg" name="proposal made" outgoing="_kMK51GwuEe6kvqzAwC8jmg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_kMK5RGwuEe6kvqzAwC8jmg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_kMK5RWwuEe6kvqzAwC8jmg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_kMK5RmwuEe6kvqzAwC8jmg" name="" content="" returnTypeFixed="true"/>

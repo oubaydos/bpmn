@@ -169,6 +169,9 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_kMK5z2wuEe6kvqzAwC8jmg" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_yEuSkGwwEe6kvqzAwC8jmg" name="project" dataType="_kMK6F2wuEe6kvqzAwC8jmg" className="com.temp.model.Project">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_yEuSkWwwEe6kvqzAwC8jmg" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_kMK50GwuEe6kvqzAwC8jmg">
         <targetForm xmi:type="expression:Expression" xmi:id="_kMK50WwuEe6kvqzAwC8jmg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>

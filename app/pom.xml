@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.temp</groupId>
-    <artifactId>temp-parent</artifactId>
+    <groupId>com.peprojectcortes</groupId>
+    <artifactId>peprojectcortes-parent</artifactId>
     <version>0.0.1</version>
   </parent>
-  <artifactId>temp</artifactId>
-  <name>temp</name>
+  <artifactId>peprojectcortes</artifactId>
+  <name>peprojectcortes</name>
   <dependencies>
     <dependency>
       <groupId>org.bonitasoft.engine</groupId>
@@ -76,7 +76,7 @@
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>temp-bdm-model</artifactId>
+      <artifactId>peprojectcortes-bdm-model</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
     </dependency>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.temp</groupId>
-  <artifactId>temp-parent</artifactId>
+  <groupId>com.peprojectcortes</groupId>
+  <artifactId>peprojectcortes-parent</artifactId>
   <version>0.0.1</version>
   <packaging>pom</packaging>
   <modules>
     <module>app</module>
+    <module>bdm</module>
   </modules>
   <properties>
-    <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
     <maven.compiler.release>11</maven.compiler.release>
+    <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
     <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
     <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
     <bonita-project-maven-plugin.version>0.1.0</bonita-project-maven-plugin.version>

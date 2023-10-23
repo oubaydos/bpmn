@@ -1,10 +1,10 @@
 {
-  "id" : "newForm",
-  "name" : "newForm",
+  "id" : "initForm",
+  "name" : "initForm",
   "type" : "form",
   "uuid" : "d862b0d2-3e72-4d8f-904c-84cdf0c1b5df",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1697467954333,
+  "lastUpdate" : 1698068766228,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -51,7 +51,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Project"
+                    "value" : "Init Project"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -60,6 +60,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "b4ba18ec-68a7-4c3b-bed6-d6556706b137",

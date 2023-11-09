@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connectorconfiguration="http://wwww.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_KCwP4H8zEe64g_y8Y9TP-A" name="Project_Validation_Diagram_Obaydah_Bouifadene-Iliass_Dahman" version="8.0" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_KCwP4X8zEe64g_y8Y9TP-A" name="Project_Validation_Process_Obaydah_Bouifadene-Iliass_Dahman" version="8.0">
-      <elements xmi:type="process:Lane" xmi:id="_KCwP4n8zEe64g_y8Y9TP-A" name="Strategic Planning Committee" actor="_KCw3JH8zEe64g_y8Y9TP-A">
+      <elements xmi:type="process:Lane" xmi:id="_KCwP4n8zEe64g_y8Y9TP-A" documentation="This committee is responsible for proposing new project ideas" name="Strategic Planning Committee" actor="_KCw3JH8zEe64g_y8Y9TP-A">
         <elements xmi:type="process:StartEvent" xmi:id="_KCwP438zEe64g_y8Y9TP-A" name="Proposal made" outgoing="_KCwQ0H8zEe64g_y8Y9TP-A">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_KCwP5H8zEe64g_y8Y9TP-A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_KCwP5X8zEe64g_y8Y9TP-A" name="" content="" returnTypeFixed="true"/>

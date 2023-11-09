@@ -547,6 +547,24 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
+    <user userName="oubaydos">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="iliass">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="thibault">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="member">
@@ -609,6 +627,12 @@
     <group name="services" parentPath="/acme/production">
       <displayName>Services</displayName>
       <description>This group represents the services department of the ACME organization</description>
+    </group>
+    <group name="Strategic planning commitee" parentPath="/acme/production">
+      <displayName>Strategic planning commitee</displayName>
+    </group>
+    <group name="Manager" parentPath="/acme/production">
+      <displayName>Manager</displayName>
     </group>
   </groups>
   <memberships>
@@ -736,6 +760,24 @@
       <roleName>member</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
+    </membership>
+    <membership>
+      <userName>oubaydos</userName>
+      <roleName>member</roleName>
+      <groupName>Manager</groupName>
+      <groupParentPath>/acme/production</groupParentPath>
+    </membership>
+    <membership>
+      <userName>iliass</userName>
+      <roleName>member</roleName>
+      <groupName>Strategic planning commitee</groupName>
+      <groupParentPath>/acme/production</groupParentPath>
+    </membership>
+    <membership>
+      <userName>thibault</userName>
+      <roleName>member</roleName>
+      <groupName>rd</groupName>
+      <groupParentPath>/acme/production</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>
